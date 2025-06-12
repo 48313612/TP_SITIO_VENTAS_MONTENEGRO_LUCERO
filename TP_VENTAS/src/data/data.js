@@ -6,9 +6,7 @@ export const celulares = [
       precio: 1299,
       marcaId: 1,
       fotos: [
-        'https://example.com/iphone14pro-1.jpg',
-        'https://example.com/iphone14pro-2.jpg',
-        'https://example.com/iphone14pro-3.jpg'
+        'https://shop.litecorp.com.ar/wp-content/uploads/2023/06/image-removebg-preview-2023-06-21T011220.945.png'
       ]
     },
     {
@@ -18,9 +16,7 @@ export const celulares = [
       precio: 999,
       marcaId: 2,
       fotos: [
-        'https://example.com/galaxys23-1.jpg',
-        'https://example.com/galaxys23-2.jpg',
-        'https://example.com/galaxys23-3.jpg'
+        'https://clevercel.mx/cdn/shop/files/Portadas_SamsungS23Ultra.webp?v=1749242647'
       ]
     },
     {
@@ -30,9 +26,7 @@ export const celulares = [
       precio: 899,
       marcaId: 3,
       fotos: [
-        'https://example.com/xiaomi13pro-1.jpg',
-        'https://example.com/xiaomi13pro-2.jpg',
-        'https://example.com/xiaomi13pro-3.jpg'
+        'https://playroomonline.com.ar/wp-content/uploads/2024/03/note13-pro.png'
       ]
     },
     {
@@ -42,9 +36,7 @@ export const celulares = [
       precio: 699,
       marcaId: 4,
       fotos: [
-        'https://example.com/edge40-1.jpg',
-        'https://example.com/edge40-2.jpg',
-        'https://example.com/edge40-3.jpg'
+        'https://mxmoto.vtexassets.com/arquivos/ids/170616-800-800?v=638736126487730000&width=800&height=800&aspect=true'
       ]
     },
     {
@@ -54,9 +46,7 @@ export const celulares = [
       precio: 1499,
       marcaId: 1,
       fotos: [
-        'https://example.com/iphone16promax-1.jpg',
-        'https://example.com/iphone16promax-2.jpg',
-        'https://example.com/iphone16promax-3.jpg'
+        'https://acdn-us.mitiendanube.com/stores/001/827/432/products/iphone-16-pro-max-1-b553be62f31c98f1a017359303638186-1024-1024.png'
       ]
     },
     {
@@ -66,9 +56,7 @@ export const celulares = [
       precio: 899,
       marcaId: 1,
       fotos: [
-        'https://example.com/iphone16e-1.jpg',
-        'https://example.com/iphone16e-2.jpg',
-        'https://example.com/iphone16e-3.jpg'
+        'https://tntelectronica.com.ar/wp-content/uploads/Iphone-16e-1.png'
       ]
     },
     {
@@ -78,9 +66,7 @@ export const celulares = [
       precio: 1399,
       marcaId: 2,
       fotos: [
-        'https://example.com/galaxys25ultra-1.jpg',
-        'https://example.com/galaxys25ultra-2.jpg',
-        'https://example.com/galaxys25ultra-3.jpg'
+        'https://tiendaonline.movistar.com.ar/media/catalog/product/s/2/s25_-_ultra_-_256_1.png'
       ]
     },
     {
@@ -90,9 +76,7 @@ export const celulares = [
       precio: 349,
       marcaId: 2,
       fotos: [
-        'https://example.com/galaxya16-1.jpg',
-        'https://example.com/galaxya16-2.jpg',
-        'https://example.com/galaxya16-3.jpg'
+        'https://tiendaonline.movistar.com.ar/media/catalog/product/s/a/samsung-a16-blueblack-img1_1.png'
       ]
     },
     {
@@ -102,9 +86,7 @@ export const celulares = [
       precio: 1099,
       marcaId: 3,
       fotos: [
-        'https://example.com/xiaomi14ultra-1.jpg',
-        'https://example.com/xiaomi14ultra-2.jpg',
-        'https://example.com/xiaomi14ultra-3.jpg'
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8VD5d_BJ0ICqMp4-MaJzoon3MPwRmwMZXTw&s'
       ]
     },
     {
@@ -114,9 +96,7 @@ export const celulares = [
       precio: 499,
       marcaId: 3,
       fotos: [
-        'https://example.com/redminote14pro-1.jpg',
-        'https://example.com/redminote14pro-2.jpg',
-        'https://example.com/redminote14pro-3.jpg'
+        'https://storage.comprasmartphone.com/smartphones/xiaomi-redmi-note-14-pro.png'
       ]
     },
     {
@@ -126,9 +106,7 @@ export const celulares = [
       precio: 299,
       marcaId: 4,
       fotos: [
-        'https://example.com/motogpower2025-1.jpg',
-        'https://example.com/motogpower2025-2.jpg',
-        'https://example.com/motogpower2025-3.jpg'
+        'https://p3-ofp.static.pub//fes/cms/2025/02/04/vvkbdeg4feab1zz3jptenoir8jw9jp894103.png'
       ]
     },
     {
@@ -138,9 +116,7 @@ export const celulares = [
       precio: 1199,
       marcaId: 4,
       fotos: [
-        'https://example.com/razr50ultra-1.jpg',
-        'https://example.com/razr50ultra-2.jpg',
-        'https://example.com/razr50ultra-3.jpg'
+        'https://tienda.personal.com.ar/images/Motorola_Razr_50_Ultra_Peach_Fuzz_e9c256b6e1.png'
       ]
     },
     {
@@ -150,9 +126,7 @@ export const celulares = [
       precio: 1299,
       marcaId: 2,
       fotos: [
-        'https://example.com/galaxys25edge-1.jpg',
-        'https://example.com/galaxys25edge-2.jpg',
-        'https://example.com/galaxys25edge-3.jpg'
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0Gj--fDV4jlKPADEC79ft3M1nZPFvfoOCZw&s'
       ]
     },
     {
@@ -162,10 +136,7 @@ export const celulares = [
       precio: 549,
       marcaId: 3,
       fotos: [
-        'https://example.com/pocof7-1.jpg',
-        'https://example.com/pocof7-2.jpg',
-        'https://example.com/pocof7-3.jpg'
+        'https://cdn.billowshop.com/9ef84dda-32dd-4016-7da3-1c0a824fffb4/img/Producto/b92f8179-a62d-8c48-4c40-4dca8b47b7dc/Diseno-sin-titulo-65-67f7095b909bc-O.png'
       ]
     }
   ];
-  
