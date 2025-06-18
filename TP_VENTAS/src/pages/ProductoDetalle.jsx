@@ -1,6 +1,7 @@
 import {useParams} from 'react-router-dom';
 import Navbar from '../components/Navbar.jsx';
 import {Link} from 'react-router-dom';
+import marcas from '../data/marcas.js';
 // import './css/styles.css';
 
 const ProductoDetalle = ({celulares}) => {
@@ -11,28 +12,6 @@ const ProductoDetalle = ({celulares}) => {
 
     const { nombre, descripcion, precio, marcaId, fotos } = celular;
    
-    const marca = () => {
-        let marca = "";
-        switch (marcaId) {
-            case 1:
-                marca = "Apple";
-                break;
-            
-            case 2:
-                marca = "Samsung";
-                break;
-            
-            case 3:
-                marca = "Xiaomi";
-                break;
-        
-            default:
-                marca = "Motorola";
-                break;
-        }
-        return marca;
-    };
-
     return(
     <>
     <Navbar /> 
@@ -44,7 +23,7 @@ const ProductoDetalle = ({celulares}) => {
         <h3>{nombre} </h3>
         <p>Descripción: {descripcion}</p>
         <p>Precio: ${precio}</p>
-        <p>Marca: {marca()}</p>
+        <p>Marca: {marcas[marcaId]}</p>
         <img src={fotos} alt={`Foto de ${nombre}`} className="foto" />
     </div>
     </>

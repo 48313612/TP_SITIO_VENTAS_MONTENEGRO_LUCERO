@@ -23,6 +23,7 @@ return(
           <Route path="/" element={<Home />}></Route>
           <Route path="/Productos" element={<Productos />} />
           <Route path="/celular/:id" element={<ProductoDetalle celulares={celulares} />} />
+          <Route path="/celular/:marcaId" element={<Productos celulares={celulares} />} />
           <Route path="/Contacto" element={<Contacto enviarDatos={(nuevaConsulta) => setConsultas([...consultas, nuevaConsulta])}/>}></Route>
           <Route path="/QuienesSomos" element={<QuienesSomos />}></Route>
           <Route className= 'pag404' path="*" element={<h1>404</h1>}></Route>

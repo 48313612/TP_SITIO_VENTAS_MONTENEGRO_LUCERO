@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar.jsx';;
 // import Footer from '../components/Footer.jsx'
-// import './css/styles.css';
+import '../css/styles.css';
 
 function QuienesSomos() {
   return (
