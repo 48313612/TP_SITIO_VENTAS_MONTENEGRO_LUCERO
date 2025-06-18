@@ -1,36 +1,54 @@
 import {useParams} from 'react-router-dom';
-import Navbar from './Navbar.jsx';
-import './css/styles.css';
+import Navbar from '../components/Navbar.jsx';
+import {Link} from 'react-router-dom';
+// import './css/styles.css';
 
-const DetallePersona = ({personas}) => {
+const ProductoDetalle = ({celulares}) => {
     const { id } = useParams();
-    const persona = personas[id];
+    const celular = celulares[id];
 
-    if (!persona) { return <h2> Persona no encontrada</h2>;}
+    if (!celular) { return <h2> Celular no encontrado</h2>;}
 
-    const { nombre, apellido, edad, email } = persona;
+    const { nombre, descripcion, precio, marcaId, fotos } = celular;
    
-    const mensajeEdad = () => {
-        let mensaje = "Menor de edad";
-        if(edad >= 18)
-        {
-            mensaje = "Mayor de edad"
+    const marca = () => {
+        let marca = "";
+        switch (marcaId) {
+            case 1:
+                marca = "Apple";
+                break;
+            
+            case 2:
+                marca = "Samsung";
+                break;
+            
+            case 3:
+                marca = "Xiaomi";
+                break;
+        
+            default:
+                marca = "Motorola";
+                break;
         }
-        return mensaje;
+        return marca;
     };
 
     return(
     <>
     <Navbar /> 
-      <h2>Detalle de Persona</h2>
+    <Link to={`/Productos`}>
+        <button>Volver</button>
+      </Link>
+      <h2>Detalle de celular</h2>
       <div className = "container-detalle">
-        <p>Nombre completo: {nombre} {apellido}</p>
-        <p>Edad: {edad}</p>
-        <p>Email: {email}</p>
-        <p>{mensajeEdad()}</p>
+        <h3>{nombre} </h3>
+        <p>Descripción: {descripcion}</p>
+        <p>Precio: ${precio}</p>
+        <p>Marca: {marca()}</p>
+        <img src={fotos} alt={`Foto de ${nombre}`} className="foto" />
     </div>
     </>
 );
 };
 
-export default DetallePersona;
+export default ProductoDetalle;

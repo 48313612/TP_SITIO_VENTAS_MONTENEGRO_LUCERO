@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './Navbar.jsx';
-import Listado from './Listado.jsx';
-import './css/styles.css';
+import Navbar from '../components/Navbar.jsx';
+// import Listado from './Listado.jsx';
+// import './css/styles.css';
 
 function Home({ personas }) {
   return (

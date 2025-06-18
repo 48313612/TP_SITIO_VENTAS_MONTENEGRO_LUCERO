@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Navbar from './components/Navbar.jsx';
-import './css/styles.css';
+import Navbar from '../components/Navbar.jsx';
+// import './css/styles.css';
 
 function Contacto({ enviarDatos }) {
   const [consulta, setConsulta] = useState({

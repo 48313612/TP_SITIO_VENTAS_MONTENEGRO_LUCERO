@@ -1,4 +1,4 @@
-export const celulares = [
+const celulares = [
     {
       id: 1,
       nombre: 'iPhone 14 Pro',
@@ -140,3 +140,5 @@ export const celulares = [
       ]
     }
   ];
+
+  export default celulares;
