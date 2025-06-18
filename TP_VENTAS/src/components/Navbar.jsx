@@ -17,7 +17,7 @@ const Navbar = () => {
 
           <li className="dropdown">
             <button className="dropdown-button" onClick={() => setMostrarMenu(!mostrarMenu)}>
-              Productos ⌄
+              Productos
             </button>
 
             {mostrarMenu && (
@@ -25,7 +25,7 @@ const Navbar = () => {
                 <li><Link to="/Productos" onClick={() => setMostrarMenu(false)}>Ver todos</Link></li>
                 {marcaIdsUnicas.map((id) => (
                   <li key={id}>
-                    <Link to={`/celular/${id}`} onClick={() => setMostrarMenu(false)}>
+                    <Link to={`/celular/marca/${id}`} onClick={() => setMostrarMenu(false)}>
                       {marcas[id]}
                     </Link>
                   </li>
