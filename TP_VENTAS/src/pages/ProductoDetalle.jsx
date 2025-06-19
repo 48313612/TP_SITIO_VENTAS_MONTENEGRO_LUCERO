@@ -2,7 +2,8 @@ import {useParams} from 'react-router-dom';
 import Navbar from '../components/Navbar.jsx';
 import {Link} from 'react-router-dom';
 import marcas from '../data/marcas.js';
-// import './css/styles.css';
+import Footer from '../components/Footer.jsx';
+import '../css/styles.css';
 
 const ProductoDetalle = ({celulares}) => {
     const { id } = useParams();
@@ -26,6 +27,7 @@ const ProductoDetalle = ({celulares}) => {
         <p>Marca: {marcas[marcaId]}</p>
         <img src={fotos} alt={`Foto de ${nombre}`} className="foto" />
     </div>
+    <Footer />
     </>
 );
 };

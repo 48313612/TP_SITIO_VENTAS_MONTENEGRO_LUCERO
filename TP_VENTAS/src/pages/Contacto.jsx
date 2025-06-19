@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar.jsx';
-// import './css/styles.css';
+import '../css/styles.css';
+import Footer from '../components/Footer.jsx';
 
 function Contacto({ enviarDatos }) {
   const [consulta, setConsulta] = useState({
@@ -89,8 +90,8 @@ function Contacto({ enviarDatos }) {
       <input type="text" name="email" value={consulta.email} className="u-full-width" placeholder="Ingrese su email" onChange={detectoCambios} required/>
       {errores.email && <p style={{ color: 'red' }}>ERROR. Ingrese un email válido</p>}
 
-      <label>Edad</label>
-      <input type="number" name="edad" value={consulta.consulta} className="u-full-width" placeholder="Ingrese su edad" min="0" onChange={detectoCambios} required/>
+      <label>Consulta</label>
+      <input type="text" name="consulta" value={consulta.consulta} className="u-full-width" placeholder="Ingrese su consulta" onChange={detectoCambios} required/>
       {errores.consulta && <p style={{ color: 'red' }}>ERROR. Ingrese una consulta válida</p>}
 
       <button type="submit" className="u-full-width button-primary"> Enviar</button>
@@ -99,6 +100,7 @@ function Contacto({ enviarDatos }) {
     <div id="mensajeConfirmacion" style={{ color: 'green', display: 'none' }}>
         <p>Formulario enviado correctamente</p>
     </div>
+    <Footer />
     </>
      
   );

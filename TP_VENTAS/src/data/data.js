@@ -1,6 +1,6 @@
 const celulares = [
     {
-      id: 1,
+      id: 0,
       nombre: 'iPhone 14 Pro',
       descripcion: 'Pantalla Super Retina XDR, chip A16 Bionic, cámara de 48 MP',
       precio: 1299,
@@ -10,7 +10,7 @@ const celulares = [
       ]
     },
     {
-      id: 2,
+      id: 1,
       nombre: 'Samsung Galaxy S23',
       descripcion: 'Pantalla AMOLED 6.1", Snapdragon 8 Gen 2, cámara triple',
       precio: 999,
@@ -20,7 +20,7 @@ const celulares = [
       ]
     },
     {
-      id: 3,
+      id: 2,
       nombre: 'Xiaomi 13 Pro',
       descripcion: 'Pantalla AMOLED 6.73", cámara Leica, carga rápida 120W',
       precio: 899,
@@ -30,7 +30,7 @@ const celulares = [
       ]
     },
     {
-      id: 4,
+      id: 3,
       nombre: 'Motorola Edge 40',
       descripcion: 'Pantalla pOLED, MediaTek Dimensity 8020, resistente al agua',
       precio: 699,
@@ -40,7 +40,7 @@ const celulares = [
       ]
     },
     {
-      id: 5,
+      id: 4,
       nombre: 'iPhone 16 Pro Max',
       descripcion: 'Pantalla Super Retina XDR 6.9", chip A18 Pro, cámara cuádruple con IA',
       precio: 1499,
@@ -50,7 +50,7 @@ const celulares = [
       ]
     },
     {
-      id: 6,
+      id: 5,
       nombre: 'iPhone 16e',
       descripcion: 'Pantalla OLED 6.1", chip A17, cámara dual, excelente autonomía',
       precio: 899,
@@ -60,7 +60,7 @@ const celulares = [
       ]
     },
     {
-      id: 7,
+      id: 6,
       nombre: 'Samsung Galaxy S25 Ultra',
       descripcion: 'Pantalla Dynamic AMOLED 2X 6.8", Snapdragon 8 Gen 4, cámara 200 MP',
       precio: 1399,
@@ -70,7 +70,7 @@ const celulares = [
       ]
     },
     {
-      id: 8,
+      id: 7,
       nombre: 'Samsung Galaxy A16 5G',
       descripcion: 'Pantalla LCD 6.5", Exynos 1380, batería de 5000 mAh, 5G',
       precio: 349,
@@ -80,7 +80,7 @@ const celulares = [
       ]
     },
     {
-      id: 9,
+      id: 8,
       nombre: 'Xiaomi 14 Ultra',
       descripcion: 'Pantalla AMOLED 6.73", Snapdragon 8 Gen 3, cámara Leica 1 pulgada',
       precio: 1099,
@@ -90,7 +90,7 @@ const celulares = [
       ]
     },
     {
-      id: 10,
+      id: 9,
       nombre: 'Xiaomi Redmi Note 14 Pro',
       descripcion: 'Pantalla AMOLED 6.67", MediaTek Dimensity 8200, cámara 200 MP',
       precio: 499,
@@ -100,7 +100,7 @@ const celulares = [
       ]
     },
     {
-      id: 11,
+      id: 10,
       nombre: 'Motorola Moto G Power 2025',
       descripcion: 'Pantalla LCD 6.5", Snapdragon 6 Gen 1, batería 6000 mAh',
       precio: 299,
@@ -110,7 +110,7 @@ const celulares = [
       ]
     },
     {
-      id: 12,
+      id: 11,
       nombre: 'Motorola Razr 50 Ultra',
       descripcion: 'Pantalla plegable pOLED 6.9", Snapdragon 8 Gen 3, diseño compacto',
       precio: 1199,
@@ -120,7 +120,7 @@ const celulares = [
       ]
     },
     {
-      id: 13,
+      id: 12,
       nombre: 'Samsung Galaxy S25 Edge',
       descripcion: 'Pantalla curva AMOLED 6.7", Snapdragon 8 Gen 4, cámara triple con IA',
       precio: 1299,
@@ -130,7 +130,7 @@ const celulares = [
       ]
     },
     {
-      id: 14,
+      id: 13,
       nombre: 'Xiaomi Poco F7',
       descripcion: 'Pantalla AMOLED 6.67", Snapdragon 8s Gen 3, batería 5100 mAh',
       precio: 549,

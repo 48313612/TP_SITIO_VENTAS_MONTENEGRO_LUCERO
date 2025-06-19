@@ -6,7 +6,6 @@ import marcas from '../data/marcas.js';
 
 const Navbar = () => {
   const [mostrarMenu, setMostrarMenu] = useState(false);
-
   const marcaIdsUnicas = [...new Set(celulares.map(cel => cel.marcaId))];
 
   return (
@@ -36,6 +35,7 @@ const Navbar = () => {
 
           <li><Link to="/QuienesSomos">Quiénes Somos</Link></li>
           <li><Link to="/Contacto">Contacto</Link></li>
+          <li><Link to="/Consultas">Consultas</Link></li>
         </ul>
       </nav>
     </>

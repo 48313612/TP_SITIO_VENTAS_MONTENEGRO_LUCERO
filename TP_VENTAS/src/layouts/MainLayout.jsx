@@ -5,6 +5,7 @@ import ProductoDetalle from '../pages/ProductoDetalle.jsx'
 import Productos from '../pages/Productos.jsx'
 import Contacto from '../pages/Contacto.jsx'
 import Home from '../pages/Home.jsx'
+import Consultas from '../pages/Consultas.jsx'
 import celulares from '../data/data.js';
 
 const Layout = () => {
@@ -26,6 +27,7 @@ return(
           <Route path="/celular/marca/:marcaId" element={<Productos celulares={celulares} />} />
           <Route path="/Contacto" element={<Contacto enviarDatos={(nuevaConsulta) => setConsultas([...consultas, nuevaConsulta])}/>}></Route>
           <Route path="/QuienesSomos" element={<QuienesSomos />}></Route>
+          <Route path="/Consultas" element={<Consultas consultas={consultas} setConsultas={setConsultas}/>}></Route>
           <Route className= 'pag404' path="*" element={<h1>404</h1>}></Route>
      </Routes>
      </BrowserRouter>
