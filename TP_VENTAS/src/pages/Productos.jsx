@@ -19,13 +19,16 @@ function Productos() {
     <>
       <Navbar />
       <div className="container">
+        <h1> Productos </h1>
         {nombreMarca && <h2>{nombreMarca}</h2>} 
         {celularesFiltrados.length === 0 ? (
           <p>No hay celulares</p>
         ) : (
+          <div className="celulares-grid">{
           celularesFiltrados.map((celular) => (
             <CelularCard key={celular.id} datos={celular} />
-          ))
+          ))}
+          </div>
         )}
       </div>
       <Footer />

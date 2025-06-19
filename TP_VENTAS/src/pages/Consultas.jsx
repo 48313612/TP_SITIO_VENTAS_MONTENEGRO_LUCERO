@@ -9,6 +9,7 @@ function Consultas({ consultas, index }) {
     <> 
     <Navbar />
     <div className= "container">
+      <h1> Consultas </h1>
       {consultas.length === 0 ? (
         <p>No hay consultas</p>
       ) : (
