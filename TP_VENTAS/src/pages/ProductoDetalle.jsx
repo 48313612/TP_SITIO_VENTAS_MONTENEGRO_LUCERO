@@ -12,21 +12,31 @@ const ProductoDetalle = ({celulares}) => {
     const { nombre, descripcion, precio, marcaId, fotos } = celular;
     
     return(
-    <>
-    <Navbar /> 
-    <Link to={`/Productos`}>
-        <button>Volver</button>
-      </Link>
-      <h2>Detalle de celular</h2>
-      <div className = "container-detalle">
-        <h3>{nombre} </h3>
-        <p>Descripción: {descripcion}</p>
-        <p>Precio: ${precio}</p>
-        <p>Marca: {marcas[marcaId]}</p>
-        <img src={fotos} alt={`Foto de ${nombre}`} className="foto" />
-    </div>
-    <Footer />
+      <>
+      <Navbar />
+      <section className="detalle-container">
+        <div className="volver">
+          <Link to="/Productos">
+            <button className="btn-volver">Volver</button>
+          </Link>
+        </div>
+    
+        <h2>Detalle de celular</h2>
+        <div className="container-detalle">
+          <div className="detalle-texto">
+            <h3>{nombre}</h3>
+            <p><strong>Descripción:</strong> {descripcion}</p>
+            <p><strong>Precio:</strong> ${precio}</p>
+            <p><strong>Marca:</strong> {marcas[marcaId]}</p>
+          </div>
+          <div className="detalle-imagen">
+            <img src={fotos} alt={`Foto de ${nombre}`} />
+          </div>
+        </div>
+      </section>
+      <Footer />
     </>
+    
 );
 };
 

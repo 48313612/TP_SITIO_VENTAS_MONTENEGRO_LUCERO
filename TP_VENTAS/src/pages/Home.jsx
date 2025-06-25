@@ -20,29 +20,27 @@ export default function Home() {
           <h1>Bienvenido a PearPhone</h1>
           <p>Descubrí los últimos modelos al mejor precio y con garantía oficial.</p>
         </div>
-        <div className="hero-image">
-          <img src={logo} />
-        </div>
       </div>
 
       <div className="beneficios">
-        <div className="beneficio">
-          <span>🚚</span>
-          <p>Envío gratis</p>
-        </div>
-        <div className="beneficio">
-          <span>🔒</span>
-          <p>Pago seguro</p>
-        </div>
-        <div className="beneficio">
-          <span>📱</span>
-          <p>Modelos originales</p>
-        </div>
-        <div className="beneficio">
-          <span>💬</span>
-          <p>Soporte personalizado</p>
-        </div>
-      </div>
+  <div className="beneficio">
+    <i className="fas fa-truck"></i>
+    <p>Envío gratis</p>
+  </div>
+  <div className="beneficio">
+    <i className="fas fa-lock"></i>
+    <p>Pago seguro</p>
+  </div>
+  <div className="beneficio">
+    <i className="fas fa-mobile-alt"></i>
+    <p>Modelos originales</p>
+  </div>
+  <div className="beneficio">
+    <i className="fas fa-headset"></i>
+    <p>Soporte personalizado</p>
+  </div>
+</div>
+
 
       <h2 className="titulo-seccion">Más vendidos</h2>
       <div className="productos-populares">

@@ -1,18 +1,17 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import '../css/styles.css';
 
-function Card({datos}) {
-  const {id, nombre, fotos } = datos;
+function Card({ datos }) {
+  const { id, nombre, fotos } = datos;
 
   return (
     <div className="producto-card">
-      <p>Nombre: <span>{nombre}</span></p>
-      <img src={fotos} className="foto" />
-      <Link to={`/celular/${id}`}>
-        <button>Ver más</button>
+      <img src={fotos} className="producto-img" alt={nombre} />
+      <h3 className="producto-nombre">{nombre}</h3>
+      <Link to={`/celular/${id}`} className="btn-vermas">
+        Ver más
       </Link>
-
     </div>
   );
 }

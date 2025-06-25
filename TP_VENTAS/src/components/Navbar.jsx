@@ -3,6 +3,7 @@ import { useState } from 'react';
 import '../css/styles.css';
 import celulares from '../data/data.js';
 import marcas from '../data/marcas.js';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
   const [mostrarMenu, setMostrarMenu] = useState(false);
@@ -11,9 +12,11 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
+      <div className="navbar-logo">
+       <img src={logo} className="logo" alt="PearPhone" />
+      </div>
         <ul className="menu">
           <li><Link to="/">Home</Link></li>
-
           <li className="dropdown">
             <button className="dropdown-button" onClick={() => setMostrarMenu(!mostrarMenu)}>
               Productos
@@ -32,7 +35,6 @@ const Navbar = () => {
               </ul>
             )}
           </li>
-
           <li><Link to="/QuienesSomos">Quiénes Somos</Link></li>
           <li><Link to="/Contacto">Contacto</Link></li>
           <li><Link to="/Consultas">Consultas</Link></li>
