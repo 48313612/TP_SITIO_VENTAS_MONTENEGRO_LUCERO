@@ -26,7 +26,7 @@ function Productos() {
         ) : (
           <div className="celulares-grid">{
           celularesFiltrados.map((celular) => (
-            <CelularCard key={celular.id} datos={celular} />
+            <CelularCard class="producto-card img" key={celular.id} datos={celular} />
           ))}
           </div>
         )}

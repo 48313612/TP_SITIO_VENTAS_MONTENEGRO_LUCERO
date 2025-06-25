@@ -8,11 +8,9 @@ import '../css/styles.css';
 const ProductoDetalle = ({celulares}) => {
     const { id } = useParams();
     const celular = celulares[id];
-
     if (!celular) { return <h2> Celular no encontrado</h2>;}
-
     const { nombre, descripcion, precio, marcaId, fotos } = celular;
-   
+    
     return(
     <>
     <Navbar /> 

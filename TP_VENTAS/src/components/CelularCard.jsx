@@ -6,9 +6,9 @@ function Card({datos}) {
   const {id, nombre, fotos } = datos;
 
   return (
-    <div className="persona">
+    <div className="producto-card">
       <p>Nombre: <span>{nombre}</span></p>
-      <img src={fotos} alt={`Foto de ${nombre}`} className="foto" />
+      <img src={fotos} className="foto" />
       <Link to={`/celular/${id}`}>
         <button>Ver más</button>
       </Link>
