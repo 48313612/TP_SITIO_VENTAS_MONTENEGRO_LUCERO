@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../font/Montserrat-Bold.ttf');
+}
+
 /* ======================================= */
 /*              NAVBAR STYLES              */
 /* Estética moderna, limpia y minimalista  */
@@ -13,11 +18,13 @@
   position: sticky;
   top: 0;
   z-index: 1000;
+  font-family: 'Montserrat';
+  font-weight: 500;
 }
 
 /* Logo */
 .navbar-logo .logo {
-  height: 40px;
+  height: 60px;
   object-fit: contain;
   cursor: pointer;
 }
@@ -37,6 +44,7 @@
 .dropdown-button {
   list-style: none;
   color: #00332a;
+  font-family: 'Montserrat';
   font-weight: 500;
   background: none;
   border: none;
@@ -125,7 +133,7 @@
   background-color: #00332a;
   color: #ffffff;
   padding: 2.5rem 5%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   font-size: 0.95rem;
 }
 
@@ -247,7 +255,7 @@
   margin: 1rem 0;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
   transition: transform 0.2s ease, box-shadow 0.3s ease;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
 }
 
 .card-consulta:hover {
@@ -292,7 +300,7 @@
   background-color: #f4f6f5;
   flex: 1;
   color: #1a1a1a;
-  padding-top: 80px; /* espacio por navbar fija */
+  padding-top: 0%;
 }
 
 /* HERO */
@@ -438,6 +446,40 @@
     width: 90%;
   }
 }
+
+.confianza {
+  background-color: #ffffff;
+  padding: 3rem 2rem;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+}
+
+.confianza h2 {
+  color: #00332a;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.logos-confianza {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.logos-confianza img {
+  height: 50px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.logos-confianza img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
+
+
 /* ========================= */
 /*     FORMULARIO CONTACTO   */
 /* ========================= */
@@ -485,6 +527,7 @@ form textarea {
   transition: border 0.3s ease;
   color: #1a1a1a;
   resize: vertical;
+  font-family: 'Montserrat';
 }
 
 form input:focus,
@@ -512,6 +555,7 @@ form textarea:focus {
 
 /* Mensajes de error */
 .mensaje-error {
+  font-family: 'Montserrat';
   margin-top: -10px;
   margin-bottom: 20px;
   font-size: 0.9rem;
@@ -521,6 +565,7 @@ form textarea:focus {
 
 /* Mensaje de confirmación */
 #mensajeConfirmacion {
+  font-family: 'Montserrat';
   text-align: center;
   margin-top: 2rem;
   font-weight: bold;
@@ -744,4 +789,8 @@ form textarea:focus {
 
 .volver {
   text-align: left;
+}
+
+.consultas-p{
+  color: #1a1a1a;
 }

@@ -5,6 +5,7 @@ import marcas from '../data/marcas.js';
 import Navbar from '../components/Navbar.jsx';
 import { useParams } from 'react-router-dom';
 import Footer from '../components/Footer.jsx';
+import "../css/styles.css";
 
 function Productos() {
   const { marcaId } = useParams();
