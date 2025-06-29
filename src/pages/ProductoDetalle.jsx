@@ -13,7 +13,6 @@ const ProductoDetalle = ({celulares}) => {
     
     return(
       <>
-      <Navbar />
       <section className="detalle-container">
         <div className="volver">
           <Link to="/Productos">
@@ -34,7 +33,6 @@ const ProductoDetalle = ({celulares}) => {
           </div>
         </div>
       </section>
-      <Footer />
     </>
     
 );

@@ -18,7 +18,6 @@ function Productos() {
 
   return (
     <>
-      <Navbar />
       <div className="container">
         <h1> Productos </h1>
         {nombreMarca && <h2>{nombreMarca}</h2>} 
@@ -32,7 +31,6 @@ function Productos() {
           </div>
         )}
       </div>
-      <Footer />
     </>
   );
 }

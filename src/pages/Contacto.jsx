@@ -74,7 +74,6 @@ function Contacto({ enviarDatos }) {
   // FORMULARIO
   return (
     <>   
-    <Navbar />
     <h1> Contacto </h1>
     <div className = "align-center"> 
     <form onSubmit={tomarDatos}>
@@ -100,7 +99,6 @@ function Contacto({ enviarDatos }) {
     <div id="mensajeConfirmacion" style={{ color: 'green', display: 'none' }}>
         <p>Formulario enviado correctamente</p>
     </div>
-    <Footer />
     </>
      
   );

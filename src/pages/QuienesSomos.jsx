@@ -6,7 +6,6 @@ import '../css/styles.css';
 function QuienesSomos() {
   return (
     <>
-    <Navbar />
     <section className="quienes-container">
       <h1>Quiénes Somos</h1>
       <div className="quienes-contenido">
@@ -21,7 +20,6 @@ function QuienesSomos() {
         </div>
       </div>
     </section>
-    <Footer />
   </>
   
   );

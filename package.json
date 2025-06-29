@@ -1,9 +1,9 @@
 {
-  "name": "tp-ventas",
+  "name": "TP_SITIO_VENTAS_MONTENEGRO_LUCERO",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://47872151.github.io/TP_SITIO_VENTAS_MONTENEGRO_LUCERO/",
+  "homepage": "https://48313612.github.io/TP_SITIO_VENTAS_MONTENEGRO_LUCERO/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

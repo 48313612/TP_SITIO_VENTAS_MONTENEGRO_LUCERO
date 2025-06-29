@@ -7,7 +7,6 @@ import Footer from '../components/Footer.jsx';
 function Consultas({ consultas, index }) {
   return (
     <> 
-    <Navbar />
     <div className= "container">
       <h1> Consultas </h1>
       {consultas.length === 0 ? (
@@ -18,7 +17,6 @@ function Consultas({ consultas, index }) {
         ))
       )}
     </div>
-    <Footer />
     </>
   );
 }
