@@ -6,5 +6,5 @@ export default defineConfig({
   server: {
     historyApiFallback: true
   },
-  base: 'https://github.com/48313612/TP_SITIO_VENTAS_MONTENEGRO_LUCERO/'
+  base: '/TP_SITIO_VENTAS_MONTENEGRO_LUCERO/'
 })
