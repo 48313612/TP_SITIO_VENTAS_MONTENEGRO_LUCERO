@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://48313612.github.io/TP_SITIO_VENTAS_MONTENEGRO_LUCERO/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
